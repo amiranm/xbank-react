@@ -10,9 +10,13 @@ export const styles = StyleSheet.create({
     interExtraBold:{
         fontFamily: 'Inter-ExtraBold'
     },
+    interMedium:{
+        fontFamily: 'Inter-Medium'
+    },
     container: {
         paddingHorizontal: 30,
-        paddingVertical: 10
+        paddingVertical: 10,
+        height: '100vh'
     },
     titleContainer:{
         marginTop: 30,
@@ -40,7 +44,12 @@ export const styles = StyleSheet.create({
         marginBottom: 8,
         fontSize: 12,
     },
-    checkboxContainer:{ 
+    input:{
+        borderColor: '#ECECEC',
+        borderWidth: 1,
+        borderRadius: 6,
+    },
+    row:{ 
         flexDirection: 'row',
     },
     checkbox:{
@@ -90,4 +99,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         fontSize: 20
     },
+    flex:{
+        flex: 3,
+    }
 });

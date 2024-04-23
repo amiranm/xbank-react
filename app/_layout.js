@@ -20,10 +20,11 @@ export default function Rootlayout (){
            headerTitleStyle: {
             color: '#232325',
             fontSize: 20,
-            fontFamily: 'Inter-Medium'
+            fontFamily: 'Inter-Medium',
            },
            headerStyle:{
-            backgroundColor: '#fff'
+            backgroundColor: '#fff',
+            autoCapitalize: 'words',
            },
            headerTitleAlign: 'center',
            headerShadowVisible: false,
@@ -31,7 +32,7 @@ export default function Rootlayout (){
            headerBackTitleStyle: {
             fontSize: 34
            },
-           animation: 'slide_from_right'
+           animation: 'slide_from_right',
         }}
     />
 )

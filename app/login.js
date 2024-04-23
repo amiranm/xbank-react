@@ -33,11 +33,7 @@ const Login = ()=>{
                 <Text style={[styles.inputText, {fontFamily: 'Inter-ExtraBold'}]}>EMAIL</Text>
                 <View style={styles.emailContainer}>
                 <TextInput 
-                style={{height: 54,
-                        paddingHorizontal: 20,
-                        borderColor: '#ECECEC',
-                        borderWidth: 1,
-                        borderRadius: 6,}}
+                style={[styles.input, {padding: 20,}]}
                 placeholder="email address"
                 placeholderTextColor={'#CACACA'}
                 value={text}
@@ -53,8 +49,7 @@ const Login = ()=>{
                 <Text style={[styles.inputText, {fontFamily: 'Inter-ExtraBold', marginTop: 32}]}>PASSWORD</Text>
                 <View style={styles.emailContainer}>
                 <TextInput 
-                style={{height: 54,
-                        paddingHorizontal: 20,
+                style={{padding: 20,
                         borderColor: '#ECECEC',
                         borderWidth: 1,
                         borderRadius: 6,}}
@@ -74,7 +69,7 @@ const Login = ()=>{
                 </View>
             </View>
             <View style={[styles.row, {marginTop: 26}]}>
-                <View style={styles.checkboxContainer}>
+                <View style={styles.row}>
                 <Checkbox
                     style={styles.checkbox}
                     value={isChecked}
